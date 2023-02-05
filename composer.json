@@ -1,0 +1,19 @@
+{
+    "name": "gilangsatria/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Gilangsatria\\BelajarPhpComposerHello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dusty Bun",
+            "email": "gilangsatriags2@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
